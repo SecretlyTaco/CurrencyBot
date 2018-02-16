@@ -1,5 +1,3 @@
-import hashlib
-
 def get_balance(name):
     with open('balances.txt') as f:       # Read account balances
         lines = f.readlines()

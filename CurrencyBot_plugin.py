@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 from irc3.plugins.command import command
 import irc3
-
+import money
 
 @irc3.plugin
 class Plugin:
